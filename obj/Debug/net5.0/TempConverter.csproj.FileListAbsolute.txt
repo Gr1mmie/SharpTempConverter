@@ -1,0 +1,16 @@
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.exe
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.deps.json
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.runtimeconfig.json
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.runtimeconfig.dev.json
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.dll
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\ref\TempConverter.dll
+C:\Users\bikut\.vscode\CSharp\TempConverter\bin\Debug\net5.0\TempConverter.pdb
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.csprojAssemblyReference.cache
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.AssemblyInfoInputs.cache
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.AssemblyInfo.cs
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.csproj.CoreCompileInputs.cache
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.dll
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\ref\TempConverter.dll
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.pdb
+C:\Users\bikut\.vscode\CSharp\TempConverter\obj\Debug\net5.0\TempConverter.genruntimeconfig.cache
