@@ -14,3 +14,6 @@ dotnet5.0 can be installed from https://dotnet.microsoft.com/download, may requi
 * Linux (tested on debian/ubuntu distros) Installation:
 
 Within the repo, I've included a script that automagically installs the latest dotnet(5.0) and adds it to your path. run `dotnet_setup.sh` and that should set everything up. If your shell is not zsh, swap out the shebang for `#!/bin/bash`.
+
+## Running program
+After dotnet installed, simply run `dotnet run` in the repo directory
