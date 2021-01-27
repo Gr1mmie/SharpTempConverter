@@ -159,7 +159,7 @@ namespace TempConverter
             int choice;
             string input;
 
-            WriteLine("TempConverter\n===========================\n[1] Fahrenheit -> Celsius\n[2] Celsius -> Fahrenheit\n[3] Celsius -> Kelvin \n[4] Fahrenheit -> Kelvin\n[5] Kelvin -> Celsius\n[6] Kelvin -> Fahrenheit\n[7] Fahrenheit -> Ralkine\n[8] Celsius -> Ralkine\n[9] Kelvin -> Ralkine w/ Fahrenheit\n[10] Kelvin -> Ralkine w/ Celsius");
+            WriteLine("SharpTempConverter\n===========================\n[1] Fahrenheit -> Celsius\n[2] Celsius -> Fahrenheit\n[3] Celsius -> Kelvin \n[4] Fahrenheit -> Kelvin\n[5] Kelvin -> Celsius\n[6] Kelvin -> Fahrenheit\n[7] Fahrenheit -> Ralkine\n[8] Celsius -> Ralkine\n[9] Kelvin -> Ralkine w/ Fahrenheit\n[10] Kelvin -> Ralkine w/ Celsius");
             Write("\nChoice > ");
             input = ReadLine();
             int.TryParse(input, out choice);
