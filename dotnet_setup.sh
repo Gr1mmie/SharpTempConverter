@@ -19,7 +19,6 @@ tar zxf dotnet-sdk-5.0.100-linux-x64.tar.gz -C $HOME/dotnet-64
 sleep 1
 echo "[+] Checking shell..."
 check_shell=$(echo $SHELL)
-echo $check_shell
 if [[ $check_shell == "/bin/zsh" ]];then
 	echo "[+] zsh detected"
 	echo "[+] exporting dotnet to PATH and adding to ~/.zshrc"
@@ -32,12 +31,9 @@ elif [[ $check_shell == "/bin/bash" ]];then
 	echo 'export DOTNET_ROOT=$HOME/dotnet-64' >> ~/.bashrc
 	echo 'export PATH=$HOME/dotnet-64:$PATH' >> ~/.bashrc
 	source ~/.bashrc 2>/dev/null
-else
-	echo ""
 fi
 echo "[+] Cleaning up"
 rm dotnet-sdk-5.0.100-linux-x64.tar.gz
-clear
 echo "[+] Verifying installation"
 cd $cwd
 dotnet --version
