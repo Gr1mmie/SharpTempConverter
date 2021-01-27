@@ -1,6 +1,9 @@
 # SharpTempConverter
 Converts temperature between various units 
 
+![image](https://user-images.githubusercontent.com/57014148/105939561-519d3d00-600e-11eb-8c7a-9f0125209a3c.png)
+
+
 ## Installing and compiling
 
 The latest version of dotnet(5.0) is required to run 
