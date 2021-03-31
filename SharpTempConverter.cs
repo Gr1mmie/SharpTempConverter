@@ -91,9 +91,9 @@ namespace TempConverter
 
         }
 
-        public static float ConvertFahrenheitToRalkine(){
+        public static float ConvertFahrenheitToRankine(){
             string input;
-            float Fahrenheit, Ralkine;
+            float Fahrenheit, Rankine;
 
             Write("[*] Convert how many degree(s) Fahrenheit to Ralkine: ");
             input = ReadLine();
@@ -101,22 +101,22 @@ namespace TempConverter
 
             Ralkine = Fahrenheit + (float)491.67;
 
-            WriteLine("{0} degree(s) Fahrenheit is {1} degree(s) Ralkine", Fahrenheit, Math.Round(Ralkine, 1));
+            WriteLine("{0} degree(s) Fahrenheit is {1} degree(s) Ralkine", Fahrenheit, Math.Round(Rankine, 1));
             return Ralkine;
         }
 
-        public static float ConvertCelsiusToRalkine(){
+        public static float ConvertCelsiusToRankine(){
             string input;
-            float Celsius, Fahrenheit, Ralkine;
+            float Celsius, Fahrenheit, Rankine;
 
             Write("[*] Convert how many degree(s) Celsius to Ralkine: ");
             input = ReadLine();
             float.TryParse(input, out Celsius);
 
             Fahrenheit = (Celsius * 9/5) + 32;
-            Ralkine = (Fahrenheit - 32) + (float)491.67;
+            Rankine = (Fahrenheit - 32) + (float)491.67;
 
-            WriteLine("{0} degree(s) Celsius is {1} degree(s) Ralkine", Celsius, Math.Round(Ralkine, 1));
+            WriteLine("{0} degree(s) Celsius is {1} degree(s) Ralkine", Celsius, Math.Round(Rankine, 1));
             return Ralkine;
 
         }
@@ -159,7 +159,7 @@ namespace TempConverter
             int choice;
             string input;
 
-            WriteLine("SharpTempConverter\n===========================\n[1] Fahrenheit -> Celsius\n[2] Celsius -> Fahrenheit\n[3] Celsius -> Kelvin \n[4] Fahrenheit -> Kelvin\n[5] Kelvin -> Celsius\n[6] Kelvin -> Fahrenheit\n[7] Fahrenheit -> Ralkine\n[8] Celsius -> Rankine\n[9] Kelvin -> Rankine w/ Fahrenheit\n[10] Kelvin -> Ralkine w/ Celsius");
+            WriteLine("SharpTempConverter\n===========================\n[1] Fahrenheit -> Celsius\n[2] Celsius -> Fahrenheit\n[3] Celsius -> Kelvin \n[4] Fahrenheit -> Kelvin\n[5] Kelvin -> Celsius\n[6] Kelvin -> Fahrenheit\n[7] Fahrenheit -> Rankine\n[8] Celsius -> Rankine\n[9] Kelvin -> Rankine w/ Fahrenheit\n[10] Kelvin -> Rankine w/ Celsius");
             Write("\nChoice > ");
             input = ReadLine();
             int.TryParse(input, out choice);
@@ -184,10 +184,10 @@ namespace TempConverter
                     ConvertKelvinToFahrenheit();
                     break;
                 case 7:
-                    ConvertFahrenheitToRalkine();
+                    ConvertFahrenheitToRankine();
                     break;
                 case 8:
-                    ConvertCelsiusToRalkine();
+                    ConvertCelsiusToRankine();
                     break;
                 case 9:
                     ConvertKelvinToRankineWithFahrenheit();
